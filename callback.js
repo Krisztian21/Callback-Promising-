@@ -20,7 +20,7 @@ function removeFristElement(){
 }
 
 function modifyThirdElement(){
-    posts[2].title.replace('Three', 'Four');
+    posts[2].title= posts[2].title.replace('Three', 'Four');
 }
 
 function createPost(post, callback_1, callback_2, callback_3){
